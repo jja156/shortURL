@@ -1,0 +1,14 @@
+{
+    "name": "admin/test-task",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App"
+        }
+    },
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+      "ext-mbstring": "*",
+      "ext-pdo": "*"
+    }
+}
